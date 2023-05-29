@@ -1,24 +1,25 @@
-const cliente = require ("../models/cliente.js");
+const clientes = require ("../models/clientes");
 
-const getAllCliente = (req, res) => {
-    cliente.find((err, cliente) => {
-      res.status(200).json(cliente);
+class ClienteController {
+
+  static getAllClientes = (req, res) => {
+    clientes.find((err, clientes) => {
+      res.status(200).json(clientes)
     })
   };
 
-  const createCliente=  (req, res) => {
+  static createClientes = (req, res) => {
     let cliente = new cliente(req.body);
-  
-    empreendedora.save((err) => {
-      if(err) {
-        res.status(500).send({message: `${err.message} - falha ao cadastrar cliente`})
+
+    cliente.save((err) => {
+      if (err) {
+        res.status(500).send({ message: `${err.message} - falha ao cadastrar cliente` })
       } else {
         res.status(201).send(cliente.toJSON())
       }
     })
+   }
   };
 
-  module.exports = {
-    getAllCliente,
-    createCliente
-  }
+module.exports = ClienteController;
+ 
