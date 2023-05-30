@@ -21,4 +21,4 @@ const empreendedoraSchema = new mongoose.Schema(
 
 const empreendedoras = mongoose.model('empreendedoras',empreendedoraSchema);
 
-module.exports = empreendedoras ;
+module.exports = empreendedoras;
