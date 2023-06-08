@@ -1,12 +1,21 @@
-# projeto-delas
-sparkles: Projeto Delas :sparkles:
+ # <p align="center"> Projeto Delas  <p>
 
-### Qual problema o Delas visa solucionar?
- Muitas empreendedoras enfrentam a falta de uma plataforma que lhes permita oferecer seus serviços e alcançar um público-alvo mais amplo. Elas desejam expandir seus negócios e gerar mais oportunidades de emprego.
+# <p align="center"> Senac | Porto Digital   <p>
+ ## Este é um projeto Integrador do curso de aperfeiçoamento da turma de  Back-end 
 
+![image](https://github.com/aritarruda/projeto-delas-1/assets/132357619/631f0e09-1ba9-41b8-b1ec-9ee7f98e1229)
 
-### Quais pessoas ou grupos são impactados por esse problema?
-Mulheres em situação de vulnerabilidade que buscam emprego ou desejam oferecer seus serviços, vendedoras autônomas, pequenas e médias empreendedoras, prestadores de serviços diversos e profissionais da área da saúde.
+## Índice
+
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
+* [Acesso ao Projeto](#acesso-ao-projeto)
+* [Tecnologias Utilizadas](#tecnologias-utilizadas)
+* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras-do-projeto)
+ 
+ ## Descrição do Projeto
+
+ Muitas empreendedoras enfrentam a falta de uma plataforma que lhes permita oferecer seus serviços e alcançar um público-alvo mais amplo. Elas desejam expandir seus negócios e gerar mais oportunidades de emprego.Normalmente são mulheres em situação de vulnerabilidade que buscam emprego ou desejam oferecer seus serviços, vendedoras autônomas, pequenas e médias empreendedoras, prestadores de serviços diversos e profissionais da área da saúde.
 
 
 ### Objetivo da plataforma: 
