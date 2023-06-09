@@ -1,19 +1,23 @@
- # <p align="center"> Projeto Delas  <p>
+<h1 align="center">
 
-# <p align="center"> Senac | Porto Digital   <p>
- ## Este é um projeto Integrador do curso de aperfeiçoamento da turma de  Back-end 
 
-![image](https://github.com/aritarruda/projeto-delas-1/assets/132357619/631f0e09-1ba9-41b8-b1ec-9ee7f98e1229)
+<p align="center"><b>Projeto Delas</b><p>
+ 
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/132357619/244519633-631f0e09-1ba9-41b8-b1ec-9ee7f98e1229.png" >
+ 
 
+<p align="center"> Senac | Porto Digital M.I.N.As  <p>
+ 
+ ### Este é um projeto Integrador do curso de aperfeiçoamento Backend | Turma 01
+ 
 ## Índice
 
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
-* [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias Utilizadas](#tecnologias-utilizadas)
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras-do-projeto)
  
- ## Descrição do Projeto
+ ##  Descrição do Projeto
 
  Muitas empreendedoras enfrentam a falta de uma plataforma que lhes permita oferecer seus serviços e alcançar um público-alvo mais amplo. Elas desejam expandir seus negócios e gerar mais oportunidades de emprego.Normalmente são mulheres em situação de vulnerabilidade que buscam emprego ou desejam oferecer seus serviços, vendedoras autônomas, pequenas e médias empreendedoras, prestadores de serviços diversos e profissionais da área da saúde.
 
@@ -21,50 +25,94 @@
 ### Objetivo da plataforma: 
 O projeto tem como objetivo criar um site de comércio eletrônico que promova o empoderamento feminino e incentivando mulheres na liderança. Nele, empreendedoras do gênero feminino terão a oportunidade de cadastrar seus produtos e serviços, sem limitações quanto ao público-alvo, que pode ser qualquer pessoa. A plataforma abrangerá serviços de moda, beleza, saúde, bem-estar, alimentos e serviços.
 
-
 ### Solução proposta: 
 A proposta é fornecer uma plataforma de comércio eletrônico que promova a união entre empreendedoras, incentivando a criação de novos negócios liderados por mulheres, ampliando a diversidade e promovendo oportunidades igualitárias. O projeto contribuirá para a geração de renda e valorização do trabalho das empreendedoras, tornando-se uma referência para o público empreendedor. Além disso, oferecerá aos clientes uma ampla gama de produtos e serviços.
 
-
-### Tipo de plataforma: 
-E-commerce
-
-
-### Para quem: 
-Mulheres empreendedoras
-
-
-### Público-alvo: 
-Todos os públicos
-
-
-### Como funcionará: 
+ ### Como funcionará: 
 O site de comércio eletrônico permitirá o cadastro de produtos e serviços, fornecendo informações detalhadas, como fotos, descrição, preço, opções de frete, localização e promoções. Dessa forma, os clientes poderão encontrar e adquirir facilmente os produtos e serviços desejados. Além disso, o site contará com campos para sugestões e avaliações dos clientes.
 
-### Serviços oferecidos: 
-Culinária, confeitaria, saúde, terapia, fisioterapia, consultas, beleza, estética, moda, calçados, acessórios, cosméticos, perfumaria e prestação de serviços em geral.
+ ## Funcionalidades e Demonstração da Aplicação
+ ### Arquitetura do Projeto
+```
+📁projeto-delas
+  |
+  |--📁node_modules
+  |
+  |--📁 src
+  |  ||
+  |  ||--📁 config
+  |  |    |- 📄 dbConnect.js
+  |  ||
+  |  ||--📁 controllers
+  |  |    |- 📄 clientesController.js
+  |  |    |- 📄 empreendedorasController.js  
+  |  |
+  |  |
+  |  ||--📁 models
+  |  |    |- 📄 clientes.js
+  |  |    |- 📄 empreendedoras.js
+  |  |
+  |  ||--📁 routes
+  |  |    |- 📄 clientes.js
+  |  |    |- 📄 empreendedoras.js
+  |  |    |- 📄 index.js 
+  |  |
+  |  ||-📄 app.js
+  |  |
+  |  |
+  |  | 
+  |- 📄 .gitignore
+  |- 📄 package-lock.json
+  |- 📄 package.json
+  |- 📄 server.js
+  |- 📄 README.md
+ 
+ ```
+ 
+## Tecnologias Utilizadas
+ | Ferramenta | Descrição |
+| ------ | ------ |
+| Javascript | Linguagem de Programação |
+| Nodes.js | Ambiente de execução do javascript. |
+| npm | Gerenciador de pacotes. |
+| MongoDb | Banco de dados não relacional orietado a documentos. |
+| Mongo Atlas | Interface gráfica para verificar se os dados foram persistidos. |
+| Postman | Interface gráfica para realizar os testes. |
 
 
-### Diferencial: 
-O site permitirá a opção de "casadinha" de serviços de proprietárias diferentes, permitindo que os clientes adquiram serviços complementares e obtenham descontos especiais. Além disso, será possível recomendar produtos e serviços de outras empreendedoras, promovendo a união e colaboração entre as empreendedoras. Revelando que em todas as condições a diferença de gênero ainda é alarmante e a desigualdade ainda reflete nos tempos atuais, dentro das companhias.
-atualizado em: 14/06/2022
-disponível em:https://www.educamaisbrasil.com.br/educacao/noticias/mercado-de-trabalho-para-pessoas-trans
 
+```sh
+Pacotes Utilizados
+ Express
+ Mongoose
+ Nodemon
+```
+ 
+ # Clonar o repositório
+$ git clone (https://github.com/aritarruda)
 
-### Estatisticas:
-- A taxa de participação feminina no mercado de trabalho cresceu continuamente desde 2014 e atingiu 54,34%, em 2019. Em 2021, a porcentagem fechou em 51,56
-Fonte: Assessoria de Comunicação,Getúlio Vargas (FGV) e IBGE.
-Atualizado em: 24/10/2022 
-Disponível em:https://portalcorreio.com.br/mercado-de-trabalho-mulheres-sao-quase-70-do-quadro-de-funcionarios-da-geap-e-ocupam-cargos-de-lideranca/#:~:text=Um%20estudo%20da%20Funda%C3%A7%C3%A3o%20Get%C3%BAlio,porcentagem%20fechou%20em%2051%2C56.
+# Entrar na pasta do repositório
+$ cd projeto-delas
 
+# Instalar as dependências
+$ npm install
 
-Apenas 13,9% de mulheres trans e travestis possuíam empregos formais.
-Fonte: Fundação de Amparo à Pesquisa do Estado de São Paulo
-Atualizado em: 14/06/2022
-Disponível em:https://namidia.fapesp.br/mercado-de-trabalho-para-pessoas-trans/388438
+# Executar o servidor para que você possa rodar o projeto localmente
+$ npm start
+ 
+## Pessoas Desenvolvedoras do Projeto
+ 
+ #### [Ana Rita](https://github.com/aritarruda)
+#### [Carol Fernanda](https://github.com/Carolfernanda)
+#### [Delis Glória](https://github.com/delisG) 
+#### [Luana Martins](https://github.com/luanamcomin)
+#### [Michelle Bessoni](https://github.com/mbessoni)
+#### [Michelle Luana](https://github.com/Michele324)
+#### [Renata Silvestre](https://github.com/renatasilvestr3)
+#### [Tereza Oliveira](https://github.com/TerezaOliveira90)
+#### [Vanessa Farias](https://github.com/Vr-Farias)
 
+Projeto criado com a orientação e cuidado da Professora [Tereza Oliveira](https://github.com/devcode25))!<br>
+ 
+ #  Muito obrigada a você que chegou até aqui! 💜 </h2>
 
-A taxa de participação das mulheres no mercado de trabalho no ano passado foi de 52,9% enquanto a dos homens foi de 72%
-fonte: Por Rafael Rosas, Juliana Schincariol e Alessandra Saraiva, Valor — Rio
-Atualizado em: 06/11/2019
-Disponível em: https://valor.globo.com/brasil/noticia/2019/11/06/mulheres-tem-maiores-desocupacao-e-informalidade-e-menores-rendimentos-mostra-ibge.ghtml
